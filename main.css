@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a,
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 12px;
+}
+img,
+picture {
+  max-width: 70%;
+  display: block;
+}
+body {
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  gap: 10px;
+}
+header h2 {
+  color: rgb(189, 65, 20);
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.main-container {
+  display: flex;
+  gap: 20px;
+}
+.firstsection {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 15px;
+}
+input[type="text"] {
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(35, 35, 119);
+}
+.secondsectiontext {
+  color: rgb(243, 40, 8);
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.thirdsection {
+  border: 1px solid black;
+  background-color: rgb(35, 35, 119);
+  color: white;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.moderatorimage {
+  position: relative;
+  right: 20px;
+  bottom: 65px;
+  height: 150px;
+}
+.whatsapp,
+.phone {
+  margin-right: 10px;
+}
